@@ -10,6 +10,7 @@
         "azure"
     ],
     "scripts": {
+        "postinstall": "node common/scripts/install-run-rush-silent.js update",
         "build": "node common/scripts/install-run-rush.js rebuild --verbose",
         "rebuild": "npm run build",
         "test": "node common/scripts/install-run-rush.js test --verbose",
@@ -24,7 +25,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/microsoft/ApplicationInsights-JS.git"
+        "url": "git+https://github.com/JohnnyFun/ApplicationInsights-JS.git"
     },
     "author": "Microsoft Application Insights Team",
     "license": "MIT",
