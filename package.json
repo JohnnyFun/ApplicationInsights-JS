@@ -10,7 +10,6 @@
         "azure"
     ],
     "scripts": {
-        "postinstall": "node common/scripts/install-run-rush-silent.js update",
         "build": "node common/scripts/install-run-rush.js rebuild --verbose",
         "rebuild": "npm run build",
         "test": "node common/scripts/install-run-rush.js test --verbose",
